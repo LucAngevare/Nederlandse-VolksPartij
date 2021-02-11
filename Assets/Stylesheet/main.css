@@ -1,0 +1,309 @@
+.logo-small {
+  width: 122px;
+  margin-left: 28px;
+  margin-top: 7px;
+}
+
+.topnav {
+  background-color: white;
+  z-index: 5;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+}
+
+.social-meed-feed {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin-top: -6px;
+    right: 50px;
+    float: right;
+}
+
+body {
+  font-family: "product_sansbold";
+  margin: 0px;
+}
+
+.logo-daddy {
+  padding-top: 150px;
+  padding-bottom: 50px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.gezichten {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin: 20px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card p{font-size: 1.4em;}
+
+.naam{
+    color: #21468b;
+    font-size: 2rem;
+}
+
+.bg{
+  background-color: #AE1C28;
+  width: 90%;
+  height: fit-content;
+  position: relative;
+  border-radius: 50%;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card img{
+    width: 100%;
+    opacity: 30%;
+    height: 100%;
+    border-radius: 50%;
+    transition: opacity .7s;
+}
+
+.card img:hover {
+  opacity: 100%;
+  cursor: pointer;
+  transition: opacity .7s;
+}
+
+.card:hover .spam {
+  opacity: 0;
+  visibility: hidden;
+}
+
+
+.card:hover .spam2 {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.spam{
+    font-size: 5em;
+    font-weight: bolder;
+    color: white;
+    position: absolute;
+    z-index: 4;
+    padding: 10px;
+    text-align: center;
+    transition: opacity .7s, visibility .7s;
+}
+
+.spam2 {
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: white;
+    position: absolute;
+    z-index: 4;
+    padding: 10px;
+    text-align: center;
+    transition: opacity .7s, visibility .7s;
+}
+
+.kand spam{
+    font-size: 6rem;
+}
+
+.story{
+    padding: 0 20px;
+}
+
+/* #gezicht {
+  display: inline-block;
+  position: absolute;
+  z-index: -2;
+  opacity: 100%;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: opacity 1s;
+} */
+
+
+.no {
+  position: absolute;
+  z-index: -1;
+  text-align: center;
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-family: "product_sansbold";
+  font-size: 28px;
+  color: #AE1C28;
+  text-decoration: underline;
+  text-align: center;
+}
+
+@font-face {
+    font-family: 'product_sansbold_italic';
+    src: url('../Fonts/product_sans_bold_italic-webfont.woff2') format('woff2'),
+         url('../Fonts/product_sans_bold_italic-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'product_sansbold';
+    src: url('../Fonts/product_sans_bold-webfont.woff2') format('woff2'),
+         url('../Fonts/product_sans_bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'product_sansitalic';
+    src: url('../Fonts/product_sans_italic-webfont.woff2') format('woff2'),
+         url('../Fonts/product_sans_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'product_sansregular';
+    src: url('../Fonts/product_sans_regular-webfont.woff2') format('woff2'),
+         url('../Fonts/product_sans_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.nav-link {
+  text-align: right;
+  font-family: "product_sansbold";
+  font-size: 18px;
+  padding-right: 50px;
+  text-decoration: none;
+  color: #AE1C28;
+}
+
+.foresplash {
+  display: block;
+  background-color: #1f1f1f;
+  width: 100%;
+  border: 0px;
+}
+
+.navlinks {
+  display: inline-block;
+  margin-top: 30px;
+  float: right;
+  margin-right: 70px;
+}
+
+.footer{
+    width: 100%;
+    height: 900%;
+    margin-top: 100px;
+    text-align: center;
+    background: linear-gradient(340deg, #1f1f1f 60%, white 40%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer h1 {
+  margin-top: 50px;
+}
+
+.footer h2{
+    color: white;
+    font-size: 2em;
+}
+
+.footer h3{
+    color: #707070;
+    font-size: 1em;
+    padding: 20px 0;
+    line-height: 20px;
+}
+
+.footer h4{
+    color: black;
+    font-size: 2em;
+}
+
+.timer{
+    display: flex;
+    position: relative;
+    height: fit-content;
+}
+
+.one,.two{
+    margin: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer1,.timer2  {
+  position: relative;
+  background-color: #21468b;
+  width: 150px;
+  height: 115px;
+  border-radius: 30px 30px 0px 0px;
+  border-style: 5px solid;
+}
+
+.spine {
+  height: 30px;
+  border-radius: 20px;
+  border: 0px solid;
+  margin-right: -125px;
+  width: 5px;
+  background-color: bisque;
+  position: absolute;
+  z-index: 3;
+}
+
+.nostyle {
+  color: #707070;
+}
+
+.spine:nth-child(2) {
+  margin-right: 125px;
+}
+
+.timer2 {
+  background-color: #1a3870;
+  border-radius: 0px 0px 30px 30px;
+  margin-top: 5px;
+}
+
+#num1,#num2 {
+  position: absolute;
+  font-size: 200px;
+  text-align: center;
+  z-index: 3;
+  color: white;
+  margin-top: 10px;
+}
